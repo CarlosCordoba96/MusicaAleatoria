@@ -1,4 +1,4 @@
-from maleatoria import maleatoria
+import cambiador
 
 def main():
     print("Introduce la ruta:")
@@ -7,7 +7,7 @@ def main():
     print("Que tipo de formato quieres cambiar: ")
     #extension=input()
     extension=".txt"
-    musica=maleatoria(RUTA,extension)
+    musica=cambiador.maleatoria(RUTA,extension)
 
 
 if __name__=="__main__":
