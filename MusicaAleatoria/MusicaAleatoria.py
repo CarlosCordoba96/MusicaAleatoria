@@ -1,13 +1,11 @@
 import cambiador
 
 def main():
-    print("Introduce la ruta:")
-    #RUTA=input()
-    RUTA="E:\\Users\Carlos\Desktop\prueba"
-    print("Que tipo de formato quieres cambiar: ")
-    #extension=input()
-    extension=".txt"
-    musica=cambiador.maleatoria(RUTA,extension)
+    print("Introduce the path where the files are: ")
+    Path=input()
+    print("Which format have the files, '.mp3', '.py'? : ")
+    extension=input()
+    musica=cambiador.maleatoria(Path,extension)
 
 
 if __name__=="__main__":

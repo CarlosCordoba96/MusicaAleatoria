@@ -24,8 +24,8 @@ class maleatoria():
         chdir(self.ruta)
         for cancion in lista:
             numeroaleatorio=str(random.randrange(10000))
-            nuevoNombre=str("Archivo"+numeroaleatorio+self.extension)
-            print(cancion+" Cambia por -> "+nuevoNombre) 
+            nuevoNombre=str("File"+numeroaleatorio+self.extension)
+            print(cancion+" Change for -> "+nuevoNombre) 
             rename(cancion,nuevoNombre)
   
 
